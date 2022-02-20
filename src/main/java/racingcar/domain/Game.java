@@ -9,7 +9,7 @@ public class Game {
     private final Cars cars;
     private int count;
 
-    public Game(List<Car> cars, int count) {
+    private Game(List<Car> cars, int count) {
         this.cars = new Cars(cars);
         this.count = count;
     }
